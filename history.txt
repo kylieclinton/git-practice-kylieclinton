@@ -26,6 +26,15 @@
    76  git status
    78  git statis
    79  git status
+       git add .
+       git commit -m "create Readme.md file"
+       touch .gitignore
+       nano .gitignore
+       git .add
+       git commit -m "create .gitignore"
+       git status
+       git add .
+       git commit -m "update api-keys.txt"
        git branch features
        git switch features
        touch new_features.txt
