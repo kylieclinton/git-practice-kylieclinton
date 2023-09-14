@@ -1,0 +1,81 @@
+    1  git --version
+    2  git config --global use.name "Kylie Clinton
+    4  git config --global user.email "kylieclinton@gmail.com"
+    6  git config --global core.editor "code --wait"
+   19  git config --global init.defaultBranch main
+   20  git config --list
+   21  git config --global user.email "kcc91600@byu.edu"
+   22  git config --list
+   27  git branch
+   31  git log --oneline
+   32  git branch -d new_feature
+   34  git log
+   38  git remote
+   39  git remote add origin [200~
+   40  git remote add origin git@github.com:kylieclinton/git-practice-kylieclinton.git
+   41  git remote
+   42  git remote -v
+   44  git push -u origin main
+   45  git push
+   46  mkdir git_practice
+   57  git log --oneline
+   68  cd git_practice
+   70  git log --oneline
+   72  git branch -r
+   73  git branch -a
+   76  git status
+   78  git statis
+   79  git status
+   80  git clone git@github.com:kylieclinton/git_practice--bekahwebb.git
+   81  git branch kylieclinton
+   83  cd git_practice--bekahwebb/
+   84  git branch kylieclinton
+   87  git touch new_file.txt
+   91  git add .
+   92  git commit -m "create new_file and add text"
+   93  git status
+   94  git log
+   95  git push origin feature-kylieclinton
+   96  git push origin feature-kylieclinton
+   97  git status
+   98  git push feature-kylieclinton
+   99  git push origin kylieclinton
+  100  git push origin feature-kylieclinton
+  101  git push -v
+  104  cd git_practice--bekahwebb/
+  105  git branch
+  106  git switch kylieclinton
+  107  git switch main
+  110  cd git_practice
+  112  git branch
+  113  git log
+  114  git statu
+  115  git status
+  116  git checkout d0c3f7c
+  117  git branch
+  119  git checkout  e0ad428
+  120  git checkout e0ad428
+  121  git log
+  122  git checkout [200~7fdbab652a4a61c04fefbf15cf85f3dd22b5d5c5~
+  123  git checkout 7fdbab652a4a61c04fefbf15cf85f3dd22b5d5c5
+  125  git branch
+  126  git revert 7fdbab652a4a61c04fefbf15cf85f3dd22b5d5c5
+  128  git branch
+  130  git switch main
+  133  git swi
+  135  git branch
+  138  git log
+  139  git checkout 68d10629ff16be8bba5fba28fac3a3f9d671b901
+  141  git branck
+  142  git branch
+  144  git checkout d0c3f7c73649b6f08bc8792e5fe63fa3802def04 
+  151  cd git_practice
+  152  git switch main
+  154  git add .
+  155  git commit -m 
+  156  git commit -m "checking up on merge and other changes"
+  157  git push -u origin main
+  158  git pull
+  159  git log --oneline > gitlog.txt
+  160  nano gitlog.txt
+  161  history | grep git > history.txt

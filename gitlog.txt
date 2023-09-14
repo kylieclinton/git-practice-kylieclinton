@@ -1,0 +1,14 @@
+9cd51c4 Merge pull request #1 from kylieclinton/updates
+05e9bc2 Update merge error
+d0c3f7c Resolve merge conflict in new_features.txt
+e0ad428 update new_features.txt text
+b032a47 update new_features.txt
+68d1062 merge features branch with main
+7fdbab6 update file_1.txt
+85fdc23 add text to empty file
+5b604a2 add empty file
+becd997 create .gitignore file
+ee6882b create Readme.md file
+510127b update file_2.txt
+b3a415e update file_1.txt
+1f8d572 create new files
