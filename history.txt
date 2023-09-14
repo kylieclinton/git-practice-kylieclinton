@@ -26,6 +26,21 @@
    76  git status
    78  git statis
    79  git status
+       git branch features
+       git switch features
+       touch new_features.txt
+       git add .
+       git commit -m "add empty file"
+       gig add .
+       git commit -m "update new_features.txt"
+       git switch main
+       git commit -m "update file_1.txt"
+       git merge features
+       git add .
+       git commit -m "solve merge issue"
+       git merge -d features
+       git remote add origin git@github.com:kylieclinton/git-practice-kylieclinton.git
+       git push -u origin main
    80  git clone git@github.com:kylieclinton/git_practice--bekahwebb.git
    81  git branch kylieclinton
    83  cd git_practice--bekahwebb/
