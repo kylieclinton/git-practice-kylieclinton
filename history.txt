@@ -103,3 +103,19 @@
   159  git log --oneline > gitlog.txt
   160  nano gitlog.txt
   161  history | grep git > history.txt
+  156  git clone git@github.com:kylieclinton/git-practice-brady-heinig.git
+  157  ls
+  158  cd git-practice-brady-heinig/
+  159  git branch
+  160  git branch feature-kylieclinton
+  161  ls
+  162  git branch
+  163  git branch feature-kylieclinton
+  164  git switch feature-kylieclinton
+  165  ls
+  166  touch newest_file.txt
+  167  nano newest_file.txt
+  168  git add .
+  169  git commit -m
+  170  git commit -m "add new file"
+  171  git push origin feature-kylieclinton
